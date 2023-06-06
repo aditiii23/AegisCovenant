@@ -11,7 +11,7 @@ It is a React app allowing users to search for flight prices between cities. It 
 - View detailed information about each flight, including departure time, airline, and price
 
 ## Live Demo
-https://aegis-covenant-assignment-2px3bhypk-aditiii23.vercel.app
+https://aegis-covenant-assignment-aditiii23.vercel.app
 
 ## Database Specification:
 - Creation of database consisting of source and destination with other attributes such as name of the airline, departure date and time etc
