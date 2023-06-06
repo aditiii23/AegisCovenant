@@ -1,0 +1,49 @@
+.header {
+    color: rgb(34, 135, 148);
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    background-color: #e7eee0;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+}
+
+.container {
+    width: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 18px;
+    top: 0;
+}
+
+.title {
+    width: 50%;
+    text-align: left;
+    display: inline-block;
+}
+
+.titletext {
+    color: rgb(35, 60, 142);
+    text-decoration: none;
+}
+
+.links {
+    width: 50%;
+    text-align: right;
+    display: inline-block;
+}
+
+.button_common {
+    color: rgb(35, 60, 142);
+    padding: 5px 5px;
+    font-size: 22px;
+    cursor: pointer;
+    align-items: center;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .header {
+        width: 100%
+    }
+}
