@@ -75,6 +75,7 @@ const Signup = () => {
           dispatch({ type: "USER", payload: res.data.user })
         }
       }
+      toast.success("Registered successfully")
     } catch (err) {
       toast.error(err?.response?.data?.message)
     } finally {

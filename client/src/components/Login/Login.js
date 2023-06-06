@@ -54,6 +54,7 @@ const Login = () => {
           dispatch({ type: "USER", payload: res.data.user })
         }
       }
+      toast.success("Login successful")
     } catch (err) {
       toast.error(err?.response?.data?.message)
     } finally {
